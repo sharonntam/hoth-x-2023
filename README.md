@@ -1,1 +1,1 @@
-# hoth-x-2023
+# Hackathon HOTH X 2023
