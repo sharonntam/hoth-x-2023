@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'space-around',
         paddingTop: '5%',
-        paddingBottom: '25%',
+        paddingBottom: '35%',
     },
 
     appTitle: {
