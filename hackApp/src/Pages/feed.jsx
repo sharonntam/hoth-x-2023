@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
-import { StyleSheet, Text, View } from 'react-native';
-import { Image, View, TouchableOpacity } from 'react-native'
+import { StyleSheet, Text, View, Image, TouchableOpacity } from 'react-native';
 import { Text, Avatar, withStyles, List } from 'react-native-ui-kitten'
 
 function FeedPage() {
