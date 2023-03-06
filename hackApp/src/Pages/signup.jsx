@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View, Button } from 'react-native';
+import { StyleSheet, Text, View, Button, TextInput} from 'react-native';
 import * as React from 'react';
 
 function SignUpPage({navigation}) {
@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
         flex: 1,
         backgroundColor: '#fff',
         alignItems: 'center',
-        justifyContent: 'center',
+        justifyContent: 'space-around',
     },
 });
 
