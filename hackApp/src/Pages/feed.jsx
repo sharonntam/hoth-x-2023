@@ -35,7 +35,7 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
     },
 });
-
+/*
 return (
   <List
     style={this.props.themedStyle.container}
@@ -44,5 +44,6 @@ return (
     keyExtractor={Posts.id}
   />
 )
+*/
 
 export default FeedPage;
