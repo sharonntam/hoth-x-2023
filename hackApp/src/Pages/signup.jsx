@@ -7,8 +7,8 @@ function SignUpPage({navigation}) {
 
     return (
       <View style={styles.signupStyle}>
-        <Text>App Name</Text>
-        <Image style={styles.logoStyle} source={require('/Users/sharontam/Desktop/HOTH X/hoth-x-2023/hackApp/assets/plant.png')}/>
+        <Text style={styles.appTitle}>App Name</Text>
+        <Image style={styles.logoStyle} source={require('./pageAssets/plant.png')}/>
         <View style={styles.nameEntryStyle}>
             <Text>Enter Name: </Text>
             <TextInput style={styles.inputStyle} onNameChange={onNameChange} username={nameText} />
@@ -28,15 +28,20 @@ const styles = StyleSheet.create({
         paddingBottom: '25%',
     },
 
+    appTitle: {
+        fontSize: 30,
+    },
+
     logoStyle: {
         width: '40%',
-        height: '20%',
+        height: '25%',
     },
 
     nameEntryStyle: {
         // flex: 1,
         flexDirection: 'row',
         alignItems: 'center',
+        fontSize: 20,
     },
 
     inputStyle: {
