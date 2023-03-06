@@ -1,10 +1,11 @@
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, Button } from 'react-native';
 import * as React from 'react';
 
-function SignUpPage() {
+function SignUpPage({navigation}) {
     return (
       <View style={styles.signupStyle}>
         <Text>App Name</Text>
+        <Button title='Home' onPress={() => navigation.navigate('home')} />
       </View>
     );
 }

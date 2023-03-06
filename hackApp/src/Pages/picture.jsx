@@ -1,16 +1,16 @@
 import { StyleSheet, Text, View } from 'react-native';
 import * as React from 'react';
 
-function FriendsPage() {
+function PicturePage() {
     return (
-      <View style={styles.friendsStyle}>
-        <Text>FRIENDS</Text>
+      <View style={styles.pictureStyle}>
+        <Text>TAKE A PIC</Text>
       </View>
     );
 }
 
 const styles = StyleSheet.create({
-    friendsStyle: {
+    pictureStyle: {
         flex: 1,
         backgroundColor: '#fff',
         alignItems: 'center',
@@ -18,4 +18,4 @@ const styles = StyleSheet.create({
     },
 });
 
-export default FriendsPage;
+export default PicturePage;
