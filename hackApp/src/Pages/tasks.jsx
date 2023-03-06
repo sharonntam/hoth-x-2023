@@ -4,12 +4,9 @@ import {MaterialIcons} from '@expo/vector-icons';
 
 function TasksPage() {
     return (
-      <View style={styles.completed}>
-        <View style ={style.checkBox}>
-          <Text style={styles.check}>{props.check}</Text>
-        </View>
-        <View style={styles.task}>
-          <Text style={styles.taskDesc}>{props.taskDesc}</Text>
+      <View>
+        <View style={styles.tasksStyle}>
+          <Text>Complete at least one task per day!</Text>
         </View>
       </View>
     );
