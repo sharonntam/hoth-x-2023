@@ -1,10 +1,16 @@
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
 import * as React from 'react';
+import {MaterialIcons} from '@expo/vector-icons';
 
 function TasksPage() {
     return (
-      <View style={styles.tasksStyle}>
-        <Text>TASKS</Text>
+      <View style={styles.completed}>
+        <View style ={style.checkBox}>
+          <Text style={styles.check}>{props.check}</Text>
+        </View>
+        <View style={styles.task}>
+          <Text style={styles.taskDesc}>{props.taskDesc}</Text>
+        </View>
       </View>
     );
 }
