@@ -1,4 +1,4 @@
-# Eco-Friendly with Friends!
+# RealEco
 Hackathon HOTH X 2023
 
 Social task management app that promotes environmental sustainability!
